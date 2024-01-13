@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'IBMlogo';
+    src: url('IBM-Logo.ttf') format('truetype');
+    
+}
+
+@font-face {
+    font-family: 'IBMbios2Y';
+    src: url('IBM_BIOS-2y.ttf') format('truetype');
+    
+}
+
+ul {
+    list-style: none; 
+  }
+  
+  ul li::before {
+    content: "\2022";  
+    color: #9efbf4; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+
+.main {
+    background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    font-family: 'IBMbios2Y'; 
+    font-size: 18px;
+    color: #9efbf4;
+    margin-top: 250px;
+}
+
+.format {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+}
+
+.placement {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.header1,
+.header2,
+.header3 {
+    font-family: 'IBMlogo';
+    color:#9efbf4;
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+.box1,
+.box2,
+.box3,
+.boxmain {
+    box-sizing: border-box;
+    border: 3px solid #9efbf4;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}
+
+.discord,
+.steam,
+.mail,
+.instagram,
+.mal,
+.github,
+.abouttext1 {
+    color: #9efbf4;
+    font-family: 'IBMbios2Y';
+}
+
+.project1 {
+    color: #9efbf4;
+    font-family: 'IBMbios2Y';
+}
+
+.abouttext1 {
+    font-family: 'IBMbios2Y';
+}
+
+.abouttext2 {
+    opacity: 0.5;
+    font-family: 'IBMbios2Y';
+}
